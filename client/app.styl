@@ -1,0 +1,185 @@
+@import 'nib'
+
+@font-face
+  font-family 'Duru Sans'
+  font-style normal
+  font-weight 400
+  src local('Duru Sans'), local('DuruSans-Regular'), url(http://themes.googleusercontent.com/static/fonts/durusans/v3/0rnIdjSQWlqFS5KpKzVfzrO3LdcAZYWl9Si6vvxL-qU.woff) format('woff')
+
+
+
+body
+  background-color #fff
+  background-image url(/texturetastic_gray.jpg);
+    
+a
+  font-family 'Duru Sans', sans-serif
+  font-size 1em
+  line-height 1em
+  color #050505
+
+h1
+  font-family 'Duru Sans', sans-serif
+  font-size 2.5em
+  line-height 1em
+  color #050505
+  
+h2
+  font-family "HelveticaNeue-ExtraLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+  font-weight 100
+  font-size 2em
+  line-height 1em
+  color #050505
+  
+h3
+  font-family 'Duru Sans', sans-serif
+  font-size 1em
+  color #F5F5F5
+
+h4
+  font-family 'Duru Sans', sans-serif
+  
+h6
+  font-family 'Duru Sans', sans-serif
+  font-size 0.8em
+  font-weight 20
+
+p
+  font-family 'Duru Sans', sans-serif
+  font-size 1.5em
+  color #0D0D0D
+  line-height 2em
+  
+  &.instructions
+    relative top 1.25px
+    margin-bottom 1.25px
+    line-height 2em
+  
+em
+  color #600000
+
+input[type=email],
+input[type=text]
+  height auto
+  relative bottom 0.25em
+  background none
+  border none
+  box-shadow none
+  border-radius 0px
+  border-bottom 1px solid #555
+  
+  font-family 'Duru Sans', sans-serif
+  font-size 0.8em
+  color #600000
+  
+  &:focus
+    box-shadow none
+    
+    
+ul#overviewTabs
+  font-family 'Duru Sans', sans-serif
+  font-size 0.8em
+  color #F5F5F5
+
+div.btn-group
+  relative top 2em left 3em
+  
+div.thumbnail
+  border none
+  color #050505
+
+  &:hover
+    color #600000
+
+  
+input[type=submit]
+  relative top 1em
+  height 2.5em
+  font-family 'Duru Sans', sans-serif
+  font-size 1.5em
+  color white
+    
+input[type=btn]
+  relative top 1em
+  height 1.5em
+  font-family 'Duru Sans', sans-serif
+  font-size 1em
+  color white
+
+div#heading  
+  relative top 0.5em left 0px
+  
+  
+  h1
+    text-shadow 2px 0px 10px #000
+    border-bottom 3px solid #555
+
+    
+  input[type=password]
+    relative bottom 1.25em left 1.25em
+    height auto
+    background none
+    border none
+    box-shadow none
+    border-radius 0px
+    border-bottom 1px solid #555
+    
+    font-family 'Duru Sans', sans-serif
+    font-size 1.5
+    color white
+    
+    &:focus
+      box-shadow none
+      
+    &::-webkit-input-placeholder
+      font-size 1em
+      relative top 2.5em
+      
+    &::-moz-placeholder
+      font-size 1em
+      
+div#expenses
+  overflow-y auto
+  padding-left 1em
+    
+  ul
+    margin-top 2em
+    
+    li
+      font-family 'Duru Sans', sans-serif
+      font-size 2em
+      color 0D0D0D 
+      line-height 1em
+
+      .title
+        text-transform capitalize
+        text-shadow 2px 0px 10px #000
+        color #FDFDFD
+        
+      .name
+        text-transform capitalize
+
+img.brandhead
+  padding-bottom 0.25em
+  background-color transparent
+    
+div#photos
+  relative top 6em
+  width 40em
+  
+  .photo
+    margin-bottom 3em
+
+    img
+      margin-bottom 0.25em
+      border-radius 2px
+      background-color white
+      border 1px solid rgba(0, 0, 0, 0.8)
+      box-shadow 0 1px 3px rgba(0, 0, 0, 0.5)
+      
+    .btn
+      position absolute
+      display none
+      
+      &:nth-child(3)
+        absolute left 6em
