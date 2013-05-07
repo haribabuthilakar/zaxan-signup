@@ -83,15 +83,15 @@
 <template name="form">
   <div class="container-fluid">
     <div id="heading" class="row-fluid">
-      <div class="span12">
+      <div class="row-fluid">
         <h1><em><i class="icon-leaf icon"></i>Zaxan</em> Awesomely Friendly Accounting</h1>
       </div>
-      <div class="span12">
+      <div class="row-fluid">
         <h2><em>Track expenses between friends</em></h2>
       </div>
     </div>
     <div class="row-fluid">
-      <div class="span6">
+      <div class="span5">
         <form id="newSignup">
           <p class="instructions">&nbsp;</p>
           <p class="instructions">Hi there,</p>
@@ -112,31 +112,31 @@
           <input type='submit' class="btn btn-danger pull-left" value='Send' />
         </form>
       </div>
-      <div id="expenses" class="span6">
+      <div id="expenses" class="span7">
         <ul class="nav nav-tabs" id="overviewTabs">
           <li><a href="#overview" data-toggle="tab">Overview</a></li>
-          <li><a href="#about" data-toggle="tab">About</a></li>
           <li><a href="#stuff" data-toggle="tab">Legal Stuff</a></li>
+          <li class="btn btn-success pull-right"><a href="#survey" data-toggle="tab">Take our 5-min survey</a></li>
         </ul>
         <div class="tab-content">
           <div class="tab-pane" id="overview">
-            <ul class="thumbnails">
-              <li><h4>Who pays? Who keeps track? Do you really need <em><i class="icon-leaf"></i>Zaxan?</em></h4></li>
-            </ul>
-            <ul class="thumbnails">
-              <li><div class="thumbnail"><i class="icon-beer icon-2x"></i></div></li>
-              <li><div class="thumbnail"><i class="icon-money icon-2x"></i></div></li>
-              <li><div class="thumbnail"><i class="icon-mobile-phone icon-2x"></i></div></li>
-              <li><div class="thumbnail"><i class="icon-music icon-2x"></i></div></li>
-              <li><div class="thumbnail"><i class="icon-coffee icon-2x"></i></div></li>
-              <li><div class="thumbnail"><i class="icon-glass icon-2x"></i></div></li>
-              <li><div class="thumbnail"><i class="icon-book icon-2x"></i></div></li>
-              <li><div class="thumbnail"><i class="icon-film icon-2x"></i></div></li>
-              <li><div class="thumbnail"><i class="icon-credit-card icon-2x"></i></div></li>
-              <li></li>
-            </ul>
-          </div>
-          <div class="tab-pane" id="about">
+            <div class="row-fluid">
+              <ul class="thumbnails">
+                <li><h4>Who pays? Who keeps track? Do you really need <em><i class="icon-leaf"></i>Zaxan?</em></h4></li>
+              </ul>
+              <ul class="thumbnails">
+                <li><div class="thumbnail"><i class="icon-beer icon-2x"></i></div></li>
+                <li><div class="thumbnail"><i class="icon-money icon-2x"></i></div></li>
+                <li><div class="thumbnail"><i class="icon-mobile-phone icon-2x"></i></div></li>
+                <li><div class="thumbnail"><i class="icon-music icon-2x"></i></div></li>
+                <li><div class="thumbnail"><i class="icon-coffee icon-2x"></i></div></li>
+                <li><div class="thumbnail"><i class="icon-glass icon-2x"></i></div></li>
+                <li><div class="thumbnail"><i class="icon-book icon-2x"></i></div></li>
+                <li><div class="thumbnail"><i class="icon-film icon-2x"></i></div></li>
+                <li><div class="thumbnail"><i class="icon-credit-card icon-2x"></i></div></li>
+                <li></li>
+              </ul>
+            </div>
             <h4>What is this Zaxan thing?</h4>
             <h6>Zaxan is an awesomely friendly application that helps friends split bills and keep track of what they owe each other after outings, movies, parties and beer sessions. It can also be used by roommates to keep track of their regular expenses.</h6>
 
@@ -176,6 +176,12 @@
             
             <h4>Cookies</h4>
             <h6>We don't store cookies. We link to Twitter and Facebook, though, and they set their own cookies, governed by their own policies. We also use Google Analytics, which sets its own cookie.</h6>
+          </div>
+          <div class="tab-pane" id="survey">
+            <div class="row-fluid">
+              <iframe src="https://docs.google.com/forms/d/1d2nZ_ipoWjBZKWvcJxVqZkIaOQ2mj9u6IG8ej_ZlZUI/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            </div>
+          </div>
         </div>
       </div>
     </div>
